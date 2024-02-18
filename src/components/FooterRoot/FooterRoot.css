@@ -1,0 +1,56 @@
+.footer {
+  background-color: #f1eadc;
+  height: 363px;
+}
+
+.block-footer {
+  padding-top: 131px;
+  margin-top: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.categoty a {
+  text-decoration: none;
+}
+
+.logo-category {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.tel-footer {
+  margin-left: 150px;
+  text-align: right;
+}
+
+.inst-face-twit {
+  display: flex;
+  justify-content: end;
+}
+
+.inst-face-twit h4 {
+  padding-left: 12px;
+}
+
+.footer-link {
+  /* margin-bottom: 50px; */
+  width: 47%;
+  border: 3px solid blue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  margin-top: 0px;
+}
+
+.link-2 {
+  margin-top: 0;
+}
+
+#cart {
+  color: black;
+  text-decoration: none;
+}

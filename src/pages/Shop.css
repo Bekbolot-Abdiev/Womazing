@@ -1,0 +1,38 @@
+.block-shop h1 {
+  margin-top: 130px;
+  margin-bottom: 130px;
+  font-size: 55px;
+  font-weight: 400;
+}
+
+.block-shop button {
+  background-color: white;
+  font-size: 17px;
+  font-weight: 500;
+  color: black;
+  width: 165px;
+  height: 62px;
+  margin: 20px;
+  /* border: 2px solid red; */
+}
+
+.block-shop button:hover {
+  background-color: black;
+  color: white;
+}
+
+.boxes {
+  display: flex;
+}
+
+.box h3 {
+  text-align: center;
+}
+.box p {
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}

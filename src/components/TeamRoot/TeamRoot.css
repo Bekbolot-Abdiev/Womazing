@@ -1,0 +1,30 @@
+.block-team {
+  margin-top: 130px;
+}
+
+.block-team h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.text-img {
+  margin-top: 92px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  margin-top: 78px;
+}
+
+.text h2 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.text p {
+  width: 235px;
+  margin-top: 28px;
+
+  font-size: 17px;
+}
