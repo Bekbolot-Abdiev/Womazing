@@ -1,0 +1,145 @@
+.block-cart {
+  margin-top: 190px;
+}
+
+.block-cart h2 {
+  font-size: 55px;
+  font-weight: 400;
+}
+
+.cart-links {
+  margin-top: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-link {
+  display: flex;
+  width: 65%;
+}
+
+.cart-link li {
+  margin: 0 70px 0 70px;
+}
+
+.cart-links li {
+  /* margin: 0 50px 0 50px; */
+  list-style-type: none;
+  font-size: 20px;
+}
+
+hr {
+  margin-top: 26px;
+  /* border: 2px solid gray; */
+}
+
+.cart-product {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-title {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.cart-title img {
+  margin: 0px 30px 0px 45px;
+}
+
+.cart-title p {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.cart-price {
+  display: flex;
+  width: 65%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cart-price p {
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0 80px 0 80px;
+}
+
+.cart-price input {
+  width: 47px;
+  height: 47px;
+  text-align: center;
+  border: 2px solid gray;
+}
+
+.cart-btn-inp {
+  margin-top: 99px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-btn-inp button {
+  width: 248px;
+  height: 68px;
+  color: #6e9c9f;
+  background-color: white;
+  border: 2px solid #6e9c9f;
+}
+
+.btn-inp input {
+  width: 255px;
+  height: 68px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid black;
+}
+
+.btn-inp button {
+  margin-left: 16px;
+  width: 248px;
+  height: 68px;
+  color: #6e9c9f;
+  background-color: white;
+  border: 2px solid #6e9c9f;
+}
+
+.cart-checkout {
+  margin-top: 88px;
+  /* text-align: end; */
+}
+
+.cart-checkout p {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.rezult {
+  display: flex;
+}
+
+.rezult button {
+  width: 236px;
+  height: 68px;
+  color: #6e9c9f;
+  background-color: #6e9c9f;
+  color: white;
+  border: none;
+  margin-left: 20px;
+}
+
+.rezult p {
+  background-color: #f1eadc;
+  width: 287px;
+  font-size: 17px;
+  font-weight: 500;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 19px 51px 19px 51px;
+}
+
+span {
+  padding-left: 50px;
+}

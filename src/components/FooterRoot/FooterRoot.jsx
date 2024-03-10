@@ -2,8 +2,12 @@ import React from "react";
 // import "../HeaderRoot/HeaderRoot.css";
 import "./FooterRoot.css";
 import visa from "../../assets/visa.svg";
+import { NavLink } from "react-router-dom";
+import "../../i18n/i18n"
+import { useTranslation } from "react-i18next";
 
 const FooterRoot = () => {
+  const {t} = useTranslation();
   return (
     <>
       <div className="footer">
@@ -16,18 +20,23 @@ const FooterRoot = () => {
                 </h4>
                 <p>WOMAZING</p>
               </div>
-              <div className="categoty">
-                {/* <ul>
-                  <li><Link to='/'>Главная</Link></li>
-                  <li><Link to='/shop'>Магазин</Link></li>
-                  <li><Link to='/about'>О бренде</Link></li>
-                  <li><Link to='/contacts'>Контакты</Link></li>
-                </ul> */}
-
-                <a href="">Главная</a>
-                <a href="">Магазин</a>
-                <a href="">О бренде</a>
-                <a href="">Контакты</a>
+              <div className="categorry">
+                <li>
+                  <NavLink id="footer-links" to="/">{t("Главная")}</NavLink>
+                </li>
+                <li>
+                  <NavLink id="footer-links" to="/shop">{t("Магазин")}</NavLink>
+                </li>
+                <li>
+                  <NavLink id="footer-links" to="/about">{t("O бренде")}</NavLink>
+                </li>
+                <li>
+                  <NavLink id="footer-links" to="/contacts">{t("Контакты")}</NavLink>
+                </li>
+                {/* // <a href="">Главная</a>
+                // <a href="">Магазин</a>
+                // <a href="">О бренде</a>
+                // <a href="">Контакты</a> */}
               </div>
             </div>
             <div className="tel-footer">
@@ -62,3 +71,10 @@ const FooterRoot = () => {
 };
 
 export default FooterRoot;
+
+{
+  /* // <a href="">Главная</a>
+                // <a href="">Магазин</a>
+                // <a href="">О бренде</a>
+                // <a href="">Контакты</a> */
+}

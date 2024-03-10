@@ -1,0 +1,44 @@
+.block-about {
+  padding-top: 190px;
+}
+
+.block-about h1 {
+  font-size: 55px;
+  font-weight: 400;
+}
+
+.img-text-about {
+  padding-top: 264px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-about {
+  width: 542px;
+}
+
+.text-about h4 {
+  font-weight: 400;
+  font-size: 30px;
+  padding-bottom: 51px;
+}
+
+.text-about p {
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+.block-about button {
+  text-align: center;
+  width: 260px;
+  height: 68px;
+  margin: 130px 423.5px 130px 423.5px;
+  color: white;
+  border: none;
+  background-color: #6e9c9f;
+}
+
+.nav-link {
+  text-decoration: none;
+}

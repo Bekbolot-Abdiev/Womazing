@@ -1,0 +1,90 @@
+/* border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid black; Нижняя рамка */
+
+.block-contacts {
+  margin-top: 190px;
+}
+
+.block-contacts h1 {
+  font-size: 55px;
+  font-weight: 400;
+}
+
+.carta {
+  margin-top: 264px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1109px;
+  height: 476px;
+  background-color: #dddddd;
+}
+
+.carta p {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.tel-email-adres {
+  margin-top: 120px;
+  display: flex;
+  justify-content: start;
+}
+
+.card {
+  border: none;
+  padding-right: 100px;
+}
+
+.card p {
+  text-align: left;
+}
+
+.zakaz-block {
+  margin-top: 130px;
+}
+
+.inputs input {
+  width: 350px;
+  height: 40px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  margin-top: 20px;
+}
+
+#message {
+  margin-top: 35px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  width: 443px;
+  padding-bottom: 134px;
+}
+
+.zakaz-block button {
+  color: white;
+  margin-top: 35px;
+  width: 189px;
+  height: 68px;
+  background-color: #6e9c9f;
+  border: none;
+}
+
+.successfully {
+  margin-top: 35px;
+  background-color: #f1eadc;
+  width: 443px;
+  height: 84px;
+}
+
+.successfully h5 {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+}

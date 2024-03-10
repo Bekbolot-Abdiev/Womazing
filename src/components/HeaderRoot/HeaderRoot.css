@@ -35,7 +35,7 @@
   display: flex;
 } */
 
-.categoty a {
+.category a {
   padding: 25px;
   /* text-decoration: none; */
   text-transform: none;
@@ -44,7 +44,7 @@
   font-size: 16px;
 }
 
-.categoty a:hover {
+.category a:hover {
   color: #6e9c9f;
   font-weight: 700;
 }
@@ -66,4 +66,23 @@
 .link-ctg {
   text-decoration: none;
   color: black;
+}
+
+.btns-header {
+  margin-left: 25px;
+}
+
+.btns-header button {
+  margin-left: 10px;
+  cursor: pointer;
+  border-color: transparent;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 2px 5px 2px 5px;
+}
+
+button.active {
+  background-color: #6e9c9f;
+  color: white;
 }

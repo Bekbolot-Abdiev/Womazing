@@ -22,13 +22,15 @@
 }
 
 .boxes {
+  padding-top: 70px;
   display: flex;
+  justify-content: space-between;
 }
 
-.box h3 {
+.boxs h3 {
   text-align: center;
 }
-.box p {
+.boxs p {
   text-align: center;
 }
 

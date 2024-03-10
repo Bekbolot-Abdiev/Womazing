@@ -1,33 +1,51 @@
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { NavLink, useParams, useSearchParams } from "react-router-dom";
 import "./Detail.css";
+import "../i18n/i18n";
+import { useTranslation } from "react-i18next";
+import { useDispatch, useSelector } from "react-redux";
+import { getDetailProduct } from "../redux/slices/womazingDetailSlices";
 
 const Detail = () => {
-  const { id } = useParams();
-  console.log(id);
+  const { t } = useTranslation();
 
-  const [data, setData] = useState(null);
-  console.log(data);
+  const { id } = useParams();
+  // console.log(id);
+
+  const dispatch = useDispatch();
+
+  const { productData, loading, error } = useSelector((state) => state.product);
+
   useEffect(() => {
-    fetch(`https://65ce2c1fc715428e8b401f4e.mockapi.io/3/name/${id}`)
-      .then((res) => res.json())
-      .then((data) => setData(data));
+    dispatch(getDetailProduct(id));
   }, []);
+  console.log(productData);
+
+  // const [data, setData] = useState(null);
+  // console.log(data);
+  // useEffect(() => {
+  //   fetch(`https://65ce2c1fc715428e8b401f4e.mockapi.io/3/name/${id}`)
+  //     .then((res) => res.json())
+  //     .then((data) => setData(data));
+  // }, []);
+
   return (
     <>
-      {data && (
+      {productData && (
         <div className="detail">
           <div className="wrap">
             <div className="detail-block">
-              <h1>{data.name}</h1>
+              <h1>{productData.name}</h1>
               <div className="img-detail-price">
                 <div className="img-detail">
-                  <img width={400} src={data.img} alt="" />
+                  <img width={400} src={productData.img} alt="" />
                 </div>
                 <div className="price-btn-detail">
-                  <h2>{data.name}</h2>
-                  <h3>{data.price}</h3>
-                  <button>Добавить в корзину</button>
+                  <h2>{productData.name}</h2>
+                  <h3>{productData.price}$</h3>
+                  <NavLink to="/cart">
+                    <button>{t("Добавить в корзину")}</button>
+                  </NavLink>
                 </div>
               </div>
             </div>

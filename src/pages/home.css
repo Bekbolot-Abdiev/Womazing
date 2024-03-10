@@ -69,3 +69,13 @@
   top: 518px;
   right: 570px;
 }
+
+#link-nav {
+  color: white;
+  text-decoration: none;
+}
+
+#link {
+  color: #6e9c9f;
+  text-decoration: none;
+}

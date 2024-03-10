@@ -8,7 +8,7 @@ const AboutRoot = () => {
     <>
       <div className="about">
         <div className="wrap">
-          <div className="block-about">
+          <div className="block-about1">
             <h1>Что для нас важно</h1>
             <div className="boxes">
               <div className="box">

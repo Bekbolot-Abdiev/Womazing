@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
 import HeaderRoot from "./components/HeaderRoot/HeaderRoot";
-import HeroRoot from "./components/HeroRoot/HeroRoot";
-import ProductsRoot from "./components/ProductsRoot/ProductsRoot";
-import AboutRoot from "./components/AboutRoot/AboutRoot";
-import TeamRoot from "./components/TeamRoot/TeamRoot";
+// import HeroRoot from "./components/HeroRoot/HeroRoot";
+// import ProductsRoot from "./components/ProductsRoot/ProductsRoot";
+// import AboutRoot from "./components/AboutRoot/AboutRoot";
+// import TeamRoot from "./components/TeamRoot/TeamRoot";
 import FooterRoot from "./components/FooterRoot/FooterRoot";
 import Home from "./pages/Home";
 import About from "./pages/About";
